@@ -1,16 +1,51 @@
-# blog_app
 
-A new Flutter project.
+# Blog App
 
-## Getting Started
+Tech task in Inquire.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Deployment
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To deploy this project run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  git clone https://github.com/deswif/blog_app.git [dir]
+```
+
+where [dir] is your directory to clone repository.
+
+
+## Installation
+
+In terminal:
+
+```bash
+  cd [app_name]
+  flutter pub get
+```
+
+where [app_name] is your name for this application directory.
+
+## Features
+
+- Auth with firebase (email/password way)
+- Showing all Posts
+- Creating new own post
+- Showing details for each post
+- Showing comments for each post
+- Updating specific post
+- Deliting specific post
+- Writing coments to specific post
+
+
+## Tech Stack
+
+**Client:** Flutter, BLoC, GetIt, Dio, Retrofit, Hive, Firebase, Json_serialization,
+
+
+
+## Author
+
+Github: [@deswif](https://www.github.com/deswif)
+Telegram: @deswif
+
