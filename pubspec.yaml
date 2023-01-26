@@ -8,16 +8,22 @@ environment:
   sdk: '>=2.18.6 <3.0.0'
 
 dependencies:
+  auth_repository:
+    path: packages/auth_repository
   bloc: ^8.1.0
+  characters: ^1.2.1
   cupertino_icons: ^1.0.2
-  dio: ^4.0.6
-  firebase_auth: ^4.2.5
+  email_validator: ^2.1.17
+  equatable: ^2.0.5
   firebase_core: ^2.4.1
   flow_builder: ^0.0.9
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.1
   get_it: ^7.2.0
+  modal_bottom_sheet: ^2.1.2
+  posts_repository:
+    path: packages/posts_repository
 
 dev_dependencies:
   flutter_test:

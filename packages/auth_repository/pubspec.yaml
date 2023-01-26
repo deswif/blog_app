@@ -1,0 +1,17 @@
+name: auth_repository
+description: A sample command-line application.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  cache_client:
+    path: ../cache_client
+  equatable: ^2.0.5
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+
+dev_dependencies:
+  very_good_analysis: ^3.1.0
